@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    border-left: solid 75px #1F2937;
+    border-right: solid 75px #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    background-color: #1F2937;
+    display: flex;
+    border-left: solid 75px #1F2937;
+    border-right: solid 75px #1F2937;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.section2-1 {
+    flex-shrink: 3;
+}
+
+.pic1 {
+    width: 600px;
+    height: 300px;
+
+}
+
+.bigText {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color:#E5E7EB;
+    font-weight: lighter;
+}
+
+.signupButton {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 4px 20px;
+    border-style: hidden;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section3 {
+    text-align: center;
+    display: flex;
+    border-left: solid 75px white;
+    border-right: solid 75px white;
+    gap: 20px;
+}
+
+.sec3title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    border-left: solid 75px white;
+    border-right: solid 75px white;
+    padding: 20px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.section4 {
+    background-color: #E5E7EB;
+    border-left: solid 75px #E5E7EB;
+    border-right: solid 75px #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 50px 0px 50px;
+}
+
+.author {
+    font-size: 24px;
+    text-align: end;
+    font-weight: bolder;
+    padding-right: 70px;
+}
+
+.section5 {
+    background-color: #3882F6;
+    margin: 60px;
+    padding: 30px 100px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec5maintext {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.sec5subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signupButton2 {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 4px 20px;
+    border-color: white;
+    border-width: 2px;
+    align-self: center;
+}
