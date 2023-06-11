@@ -30,16 +30,24 @@ body {
     border-right: solid 75px #1F2937;
     padding-top: 50px;
     justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
 }
 
 .section2-1 {
-    flex-shrink: 3;
+    flex: 1 1 0px;
 }
 
 .pic1 {
-    width: 600px;
-    height: 300px;
+    flex: 1 1 0px;
+    border-radius: 0%;
+}
 
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
 }
 
 .bigText {
@@ -83,6 +91,8 @@ a {
     border-left: solid 75px white;
     border-right: solid 75px white;
     gap: 20px;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
 }
 
 .sec3title {
@@ -96,13 +106,14 @@ a {
 }
 
 .info {
-    max-width: 200px;
+    flex: 1 1 0px;
 }
 
 .section4 {
     background-color: #E5E7EB;
     border-left: solid 75px #E5E7EB;
     border-right: solid 75px #E5E7EB;
+    padding-bottom: 50px;
 }
 
 .quote {
@@ -125,6 +136,7 @@ a {
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .sec5maintext {
